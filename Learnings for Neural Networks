@@ -1,1 +1,8 @@
 1. If Loss doesn't converge, try changing number of layers and layer sizes.
+
+Observation - Training loss for every epoch was same.
+Variations tried to improve the problem - changing normality of initialization, changing loss function
+What worked - Changing the network architecture.
+
+
+2. 
