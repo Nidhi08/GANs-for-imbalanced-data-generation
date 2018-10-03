@@ -13,4 +13,13 @@ No = number of output neurons.
 Ns = number of samples in training data set.
 α = an arbitrary scaling factor usually 2-10.
 
-2. 
+2. For Overfitting
+
+2 ways to identify overfitting - 
+
+a. validation loss > training loss (for later no. of epochs)
+b. Accuracy remains constant inspite of drop in training loss.
+
+To prevent overfitting - 
+
+a. Stop training around the epoch where validation loss > training loss
