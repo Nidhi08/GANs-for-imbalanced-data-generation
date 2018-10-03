@@ -3,6 +3,41 @@
 Observation - Training loss for every epoch was same.
 Variations tried to improve the problem - changing normality of initialization, changing loss function
 What worked - Changing the network architecture.
+References - 
+There's one additional rule of thumb that helps for supervised learning problems. The upper bound on the number of hidden neurons that won't result in over-fitting is:
 
+Nh=Ns(α∗(Ni+No))
+N
+h
+=
+N
+s
+(
+α
+∗
+(
+N
+i
++
+N
+o
+)
+)
+
+Ni
+N
+i
+ = number of input neurons.
+No
+N
+o
+ = number of output neurons.
+Ns
+N
+s
+ = number of samples in training data set.
+α
+α
+ = an arbitrary scaling factor usually 2-10.
 
 2. 
